@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Simple, affordable food ideas and diabetes safety information."
+        />
+        <title>Living well with diabetes | Food ideas</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+
+        <header class="site-header">
+            <div class="wrap header-inner">
+                <p class="eyebrow">A simple guide for everyday choices</p>
+                <h1>Living well with diabetes</h1>
+                <p class="intro">Healthy food that is easy on your wallet.</p>
+                <a class="button button-light" href="#meal-ideas"
+                    >Find a meal idea <span aria-hidden="true">↓</span></a
+                >
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section
+                class="section wrap split-section"
+                aria-labelledby="understanding-title"
+            >
+                <div>
+                    <p class="section-kicker">Start here</p>
+                    <h2 id="understanding-title">What is diabetes?</h2>
+                </div>
+                <div class="reading-column">
+                    <p class="lead">
+                        Diabetes means there is too much sugar in your blood.
+                    </p>
+                    <p>
+                        You can feel well and still have high sugar, so keep
+                        taking your medicine. High sugar over many years can
+                        damage your eyes, kidneys, feet and heart.
+                    </p>
+                    <p class="good-news">
+                        <span aria-hidden="true">✓</span> You can protect
+                        yourself.
+                    </p>
+                </div>
+            </section>
+
+            <section
+                class="section treatment-section"
+                aria-labelledby="treatment-title"
+            >
+                <div class="wrap split-section">
+                    <div>
+                        <p class="section-kicker">Your care matters</p>
+                        <h2 id="treatment-title">Treatment</h2>
+                    </div>
+                    <ul class="check-list reading-column">
+                        <li>
+                            Take your medicine every day, even when you feel
+                            well.
+                        </li>
+                        <li>
+                            Do not stop or change your tablets or insulin
+                            without speaking to the clinic.
+                        </li>
+                        <li>
+                            Come for your check-ups and bring your medicine.
+                        </li>
+                        <li>
+                            Tell us if something worries you, or if you cannot
+                            afford to come.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section
+                class="section food-section"
+                id="meal-ideas"
+                aria-labelledby="food-title"
+            >
+                <div class="wrap">
+                    <div class="section-heading">
+                        <p class="section-kicker">The everyday toolkit</p>
+                        <h2 id="food-title">Build a balanced plate</h2>
+                        <p>
+                            Small changes add up. Use this plate as a guide,
+                            then choose a meal below.
+                        </p>
+                    </div>
+
+                    <div class="plate-layout">
+                        <div
+                            class="plate"
+                            role="img"
+                            aria-label="A plate with half vegetables, one quarter protein and one quarter starch"
+                        >
+                            <div class="plate-vegetables">
+                                ½<br /><span>vegetables</span>
+                            </div>
+                            <div class="plate-protein">
+                                ¼<br /><span>protein</span>
+                            </div>
+                            <div class="plate-starch">
+                                ¼<br /><span>starch</span>
+                            </div>
+                        </div>
+                        <div class="plate-notes">
+                            <p>
+                                <strong>Half vegetables</strong><br />Spinach,
+                                cabbage, carrots, green beans or tomatoes.
+                            </p>
+                            <p>
+                                <strong>¼ protein</strong><br />Beans, lentils,
+                                eggs, tinned fish or chicken.
+                            </p>
+                            <p>
+                                <strong>¼ starch</strong><br />Maize meal, rice,
+                                potatoes, bread or samp.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="meal-picker" aria-labelledby="picker-title">
+                        <div class="picker-heading">
+                            <h3 id="picker-title">What are you planning?</h3>
+                            <p>Choose one for affordable ideas.</p>
+                        </div>
+                        <div
+                            class="tabs"
+                            role="tablist"
+                            aria-label="Meal times"
+                        >
+                            <button
+                                class="tab is-active"
+                                id="tab-breakfast"
+                                role="tab"
+                                aria-selected="true"
+                                aria-controls="panel-breakfast"
+                                data-meal="breakfast"
+                            >
+                                Breakfast
+                            </button>
+                            <button
+                                class="tab"
+                                id="tab-lunch"
+                                role="tab"
+                                aria-selected="false"
+                                aria-controls="panel-lunch"
+                                data-meal="lunch"
+                            >
+                                Lunch
+                            </button>
+                            <button
+                                class="tab"
+                                id="tab-dinner"
+                                role="tab"
+                                aria-selected="false"
+                                aria-controls="panel-dinner"
+                                data-meal="dinner"
+                            >
+                                Dinner
+                            </button>
+                            <button
+                                class="tab"
+                                id="tab-snacks"
+                                role="tab"
+                                aria-selected="false"
+                                aria-controls="panel-snacks"
+                                data-meal="snacks"
+                            >
+                                Snacks
+                            </button>
+                            <button
+                                class="tab"
+                                id="tab-drinks"
+                                role="tab"
+                                aria-selected="false"
+                                aria-controls="panel-drinks"
+                                data-meal="drinks"
+                            >
+                                Drinks
+                            </button>
+                        </div>
+                        <div
+                            class="meal-panel"
+                            id="panel-breakfast"
+                            role="tabpanel"
+                            aria-labelledby="tab-breakfast"
+                            tabindex="0"
+                        >
+                            <p class="panel-label">Good, filling starts</p>
+                            <ul class="food-list">
+                                <li>
+                                    <span>01</span> Maize meal porridge with
+                                    milk
+                                </li>
+                                <li>
+                                    <span>02</span> One slice of brown bread
+                                    with egg
+                                </li>
+                                <li>
+                                    <span>03</span> Plain yoghurt with a small
+                                    fruit
+                                </li>
+                                <li><span>04</span> Beans on toast</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="choice-grid">
+                        <article class="choice-card">
+                            <p class="section-kicker">Swap it</p>
+                            <h3>
+                                Cut down <span aria-hidden="true">→</span> Try
+                                instead
+                            </h3>
+                            <dl class="swap-list">
+                                <div>
+                                    <dt>Cooldrinks and juice</dt>
+                                    <dd>Water or unsweetened tea</dd>
+                                </div>
+                                <div>
+                                    <dt>Fried foods</dt>
+                                    <dd>Boiled or grilled</dd>
+                                </div>
+                                <div>
+                                    <dt>Processed meat</dt>
+                                    <dd>Eggs, beans or tinned fish</dd>
+                                </div>
+                            </dl>
+                        </article>
+                        <article class="choice-card fruit-card">
+                            <p class="section-kicker">Fruit smart</p>
+                            <h3>Whole fruit, one fist-sized portion</h3>
+                            <p>
+                                <strong>Everyday picks:</strong> peaches, plums,
+                                nectarines and guavas.
+                            </p>
+                            <p>
+                                <strong>Less often, small portion:</strong>
+                                watermelon, mango and grapes.
+                            </p>
+                        </article>
+                    </div>
+
+                    <aside class="saving-tip" aria-label="Money-saving tips">
+                        <span class="tip-icon" aria-hidden="true">$</span>
+                        <p>
+                            <strong>Make your money go further.</strong> Buy dry
+                            beans and lentils, choose seasonal loose vegetables,
+                            and make one or two small changes at a time.
+                        </p>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="danger-section" aria-labelledby="danger-title">
+                <div class="wrap">
+                    <div class="section-heading">
+                        <p class="section-kicker">Know the signs</p>
+                        <h2 id="danger-title">When to get help</h2>
+                    </div>
+                    <div class="sign-grid">
+                        <article class="sign-card low-sugar">
+                            <p class="sign-tag">Low sugar</p>
+                            <h3>Shaky, sweaty, very hungry or confused</h3>
+                            <p>Take sugar in water now, then eat.</p>
+                        </article>
+                        <article class="sign-card high-sugar">
+                            <p class="sign-tag">High sugar</p>
+                            <h3>
+                                Very thirsty, passing urine a lot, tired or
+                                blurred vision
+                            </h3>
+                            <p>Come to the clinic.</p>
+                        </article>
+                    </div>
+                    <div class="urgent-box">
+                        <p class="sign-tag">
+                            Go to the clinic or hospital today
+                        </p>
+                        <p>
+                            Get urgent help if you are very drowsy or confused,
+                            cannot swallow, are vomiting and cannot keep fluids
+                            down, have fast breathing, or have a foot sore,
+                            blister or wound that is not healing.
+                        </p>
+                    </div>
+                    <p class="medical-note">
+                        This guide supports, but does not replace, advice from
+                        your healthcare team.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrap footer-inner">
+                <div>
+                    <p class="section-kicker">Keep this guide close</p>
+                    <h2>Save it for your next shop.</h2>
+                    <p>Take a photo or scan to keep this.</p>
+                </div>
+                <div class="qr-wrap">
+                    <img
+                        id="qr-code"
+                        src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fexample.com"
+                        alt="QR code for this food guide"
+                    />
+                    <button class="text-button" id="copy-link" type="button">
+                        Copy page link
+                    </button>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
